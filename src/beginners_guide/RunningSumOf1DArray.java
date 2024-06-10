@@ -3,7 +3,7 @@ package beginners_guide;
 import java.util.Arrays;
 
 /*
-1480. Running Sum of 1D Array
+1480. Running Sum of 1D Array (Easy)
 Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
 Return the running sum of nums.
 
@@ -22,9 +22,6 @@ Input: nums = [3,1,2,10,1]
 Output: [3,4,6,16,17]
 */
 public class RunningSumOf1DArray {
-// time complexity = O(n)
-// space complexity = O(1)
-
     // first algorithm
     public static int[] runningSum(int[] nums) {
         int[] results = new int[nums.length];
